@@ -1,0 +1,10 @@
+/*Mixin*/
+@mixin flex-column-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+
+#hero{@include flex-column-center}
+#figura{@include flex-column-center}
+#nuestros-servicios .container-fluid{@include flex-column-center}

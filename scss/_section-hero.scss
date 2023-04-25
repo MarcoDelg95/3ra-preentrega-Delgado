@@ -1,0 +1,36 @@
+/*MOBILE*/
+#hero {
+  text-align: center;
+  height: 60vh;
+  color: whitesmoke;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/wallpaperbetter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;}
+
+/*DESKTOP*/
+  @media(min-width: 720px){
+#hero {
+  text-align: center;
+  height: 110vh;
+  color: whitesmoke;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/wallpaperbetter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+  
+h1{
+  font-size: 4em;
+  padding: 12px, 12px;
+} }
