@@ -1,70 +1,33 @@
 /*MOBILE*/
-footer {
-            background-color: #f8f9fa;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            }
-        .row{
-          flex-direction: row;
-        }
-         
-        .container {
-            max-width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        input[type=text], select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-        input[type=submit] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        input[type=submit]:hover {
-            background-color: #45a049;
-        }
-  
-  
-        
-    
-
-
-
-
-        /*DESKTOP*/
-@media(min-width: 720px){
-        .container {
-            max-width: 1700px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        input[type=text], select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-        input[type=submit] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        input[type=submit]:hover {
-            background-color: #45a049;
-        }
+.footer {
+  background-color: rgba(83, 8, 8, 0.963);
+  color: #fff;
+  padding: 40px 0;
 }
+
+.footer h3 {
+  color: azure;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: azure;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer .row {
+    flex-direction: column;
+  }
+  .footer .col-md-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+         

@@ -11,6 +11,7 @@
   <link rel="icon" type="img/png" sizes="32x32" href="../img/favicon-32x32.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css"
   integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -39,21 +40,40 @@
   
   </header>
 
-<div class="container">
-  <h2>Contacto</h2>
-  <form action="/enviar" method="post">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo..">
-
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email" placeholder="Tu correo electrónico..">
-
-    <label for="mensaje">Mensaje:</label>
-    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje.." style="height:200px"></textarea>
-
-    <input type="submit" value="Enviar">
-  </form>
-</div>
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Contáctanos</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Nombre" required>
+            <label for="name">Nombre</label>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email" required>
+            <label for="email">Email</label>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="message" placeholder="Mensaje" rows="5" required></textarea>
+            <label for="message">Mensaje</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div class="mapouter">
+          <div class="map">
+            <iframe width="100%" height="300" id="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6544.181452504023!2d-56.19872150595971!3d-34.9041726413919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802d934f2cbd%3A0x23b5034c707bf9fe!2sCentro%2C%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1683157651438!5m2!1ses!2suy" frameborder="0"
+              scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://goo.gl/maps/7ajAzz6ncyYuS9m7A"> Ubicación</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -61,21 +81,25 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
+      <div class="col-md-6">
+        <h3>Contacto</h3>
+        <p>123 Calle Principal</p>
+        <p>Montevideo, Centro</p>
+        <p>Teléfono: +598 456-7890</p>
+        <p>Correo electrónico: housenails@gmail.com</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Síguenos en redes sociales</h3>
+        <div class="social-icons">
+          <a href="https://es-la.facebook.com"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.whatsapp.com"><i class="bi bi-whatsapp"></i></a>
 
-
-  <div class="col-md-6">
-    <h4>Instagram:</h4>
-    <img src="../img/logotipo-de-instagram.png" alt="Logo de Instagram" width="50px">
+          <a href="https://www.instagram.com/nailsmelstudio/"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
   </div>
-  
-  
-  
-  <div class="col-md-6">
-    <h4>Whatsapp:</h4>
-    <img src="../img/whatsapp.png" alt="Whatsapp" width="50px">
-  </div>
-
-  </footer>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

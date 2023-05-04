@@ -2,10 +2,41 @@
   button {
   font-size: 1.2em;
   font-weight: bold;
-  padding: 8px 15px;
+  padding: 5px 15px;
   border-radius: 8px;
   border: 2px solid rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   color: white;
-  background-color: rgb(134, 33, 92);
+  background-color: rgb(124, 27, 83);
+}
+
+.boton{
+  text-decoration: none;
+  background-color: rgba(144, 9, 9, 0.963);
+  padding: 6px;
+  border-radius: 2px;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-1{color: azure;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f6bfe0;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 25px;
+ 
 }
